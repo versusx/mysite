@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108378297-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108378297-1');
+    </script>
+
+    <title>Betake | Делаем сайты на заказ</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Material Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling----
+	 <!------ Light Box ------>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>	
+
+</head>
+<body>
+<!-- header -->
+		<div class="header" id="home">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png"></a>
+					</div>
+				</div>
+			</div>
+				<div class="content">
+					<div class="services-section" id="services">
+						<div class="container">
+						<div class="cbp-spmenu-push">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s2">
+		<div class="logo1">
+					<a href="index.html"><img src="images/logo1.png"></a>
+					</div>
+					<ul>
+								<li><a href="index.html" class="scroll">На главную</a></li>
+							   	<li><a href="#services" class="scroll">Услуги</a></li>
+							   	<li><a href="#about" class="scroll">Обо мне</a></li>
+								<li><a href="contacts.html">Контакты</a></li>
+							</ul>
+						</nav>
+					
+		<div class="main">
+				<section>
+					<button id="showRight"><img src="images/nav.png"></button>
+				</section>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+		<script>
+			var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+				showRight = document.getElementById( 'showRight' ),
+				body = document.body;
+
+			showRight.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( menuRight, 'cbp-spmenu-open' );
+				disableOther( 'showRight' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showRight' ) {
+					classie.toggle( showRight, 'disabled' );
+				}
+			}
+		</script>
+			<div class="services-header">
+							<h1>Услуги</h1>
+								<p>Создание сайтов на заказ по следующим параметрам</p>
+							</div>
+								<div class="services-grids">
+									<div class="col-md-4 services-grid">
+											<img src="images/icon1.png">
+												<h3>Разработка</h3>
+													<p>Backend(серверная часть) и Frontend(клиентская часть).</p>
+												</div>
+												<div class="col-md-4 services-grid">
+													<img src="images/icon2.png">
+														<h3>Дизайн</h3>
+                                                            <p>Дизайн всего сайта от иконок до баннеров.</p>
+												</div>
+												<div class="col-md-4 services-grid">
+													<img src="images/icon3.png">
+														<h3>Хостинг</h3>
+                                                            <p>Бесплатная установка сайта на хостинг при условии если вы его оплатили.</p>
+												</div>
+												<div class="clearfix"></div>
+										</div>
+									</div>
+									</div>
+										<div class="about-section" id="about">
+											<div class="container">
+													<div class="about-grids">
+																<div class="col-md-6 left-grid">
+																		<img src="images/com.png">
+																	</div>
+																	<div class="col-md-6 right-grid">
+                                                                        <h4>Обо мне.</h4>
+<p>Меня зовут Арман, я молодой full-stack веб-разработчик. Владею разными css фреймворками(mdl, bootstrap,mdc) и js фреймворками(jquery,popper,anime).
+Также могу сверстать сайт по макету PSD. Делать буду дёшево, так как это отличный способ набраться опыта и набить себе имя среди общества.
+Фантазии у меня много, так что можете ждать всякие прикольные фишки в дизайне или в логике работы сайта.
+</p>
+																				<div class="buttons">
+																					<a class="button1 hvr-shutter-in-vertical" href="contacts.html">Связаться со мной<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+																					</div>
+																	</div>
+															<div class="clearfix"></div>
+														</div>
+												</div>
+										</div>
+					</div>
+					<div class="footer-section">
+					<div class="container">
+						<div class="footer-left">
+							<p> Copyright &copy;2017  All rights  Reserved</p>
+						</div>
+							<div class="bottom-menu">
+								<ul>
+								<li><a href="index.html" class="scroll">Домой</a></li>
+								<li><a href="#about" class="scroll">Обо мне</a></li>
+								<li><a href="#portfolio" class="scroll">Услуги</a></li>
+								<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+				<a class="scroll" href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+				</div>				
+				</div>
+
+
+</body>
+</html>
