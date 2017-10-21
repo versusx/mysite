@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
@@ -48,6 +48,16 @@
               <folding>
                 <element signature="e#5442#5448#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2958">
+              <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,6 +158,12 @@
             <path>
               <item name="s" type="b2602c69:ProjectViewProjectNode" />
               <item name="s" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="s" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -178,11 +194,11 @@
       <recent name="C:\s\public\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\s\dist" />
       <recent name="C:\s\dist\js" />
       <recent name="C:\s\dist\css" />
       <recent name="C:\s\source\ccss" />
       <recent name="C:\s\dist\images" />
-      <recent name="C:\s\dist" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,12 +235,12 @@
       <workItem from="1508513669113" duration="5795000" />
       <workItem from="1508525544085" duration="4749000" />
       <workItem from="1508593531843" duration="4531000" />
-      <workItem from="1508607528605" duration="1634000" />
+      <workItem from="1508607528605" duration="1851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18171000" />
+    <option name="totallyTimeSpent" value="18388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -452,14 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="3335" column="47" lean-forward="false" selection-start-line="3335" selection-start-column="47" selection-end-line="3335" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/images/banner2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -557,6 +565,14 @@
           <folding>
             <element signature="e#5442#5448#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
